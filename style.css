@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.name{
+    font-family: 'Oswald', sans-serif;
+}
+.navBar{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+    -webkit-backdrop-filter: blur(20px) brightness(71%);
+    backdrop-filter: blur(20px) brightness(71%);
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+.navBar nav ul li{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.content{
+    padding-top: 40px;
+    padding-left: 20px;
+    display: flex;
+    text-align: center;
+}
+.searchBox{
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    /*border: 1px solid grey;*/
+    margin-right: 60px;
+    text-align: left;
+}
+#inptSearch{
+    width: 100%;
+}
+#btnSearch{
+    width: 100%;
+    border-radius: 10px;
+    background-image: radial-gradient(25deg, yellow);
+}
+.searchBox #btnSearch{
+    margin-top: 5px;
+}
+.searchBox label{
+    padding-top: 10px;
+    display: list-item;
+    list-style-type: none;
+}
+.box{
+    width: 1000px;
+    height: auto;
+    position: relative;
+    border: none;
+}
+.products{
+    display: inline-flex;
+}
+.prod{
+    width: 300px;
+    height: 300px;
+    padding-right: 60px;
+    padding-top: 20px;
+    transition: width height 2s;
+}
+.prod:hover{
+    width: 400px;
+    height: 400px;
+}
