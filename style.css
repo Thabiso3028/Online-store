@@ -78,3 +78,8 @@ nav ul{
     width: 400px;
     height: 400px;
 }
+@media screen and (max-width: 1300px){
+    body{
+        width: 100%;
+    }
+}
